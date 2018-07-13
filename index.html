@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MEPS - old school mapping</title>
+
+  <link rel="stylesheet" href="design/css/style.css">
+  <link rel="stylesheet" href="design/css/master.css">
+  <link rel="stylesheet" href="design/css/colorizer.css">
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script
+    type="text/javascript"
+    src="lib/js/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="toolbox">
+      <div class="active">
+        <input id="magic_wand" type="radio" name="toolbox" value="1" checked="true">
+        <label for="magic_wand" title="Magic Wand">M</label>
+        <nav class="subnav">
+          <div>
+            <input id="base" type="radio" name="magic_wand" value="1" checked="true">
+            <label for="base" title="Base">B</label>
+          </div>
+          <div>
+            <input id="structure" type="radio" name="magic_wand" value="2">
+            <label for="structure" title="Structure">S</label>
+          </div>
+          <div>
+            <input id="furniture" type="radio" name="magic_wand" value="3">
+            <label for="furniture" title="Furniture">F</label>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <input id="eraser" type="radio" name="toolbox" value="2">
+        <label for="eraser" title="Eraser">E</label>
+      </div>
+      <div>
+        <input id="pen" type="radio" name="toolbox" value="3">
+        <label for="pen" title="Pen">P</label>
+      </div>
+      <div>
+        <input id="selector" type="radio" name="toolbox" value="4">
+        <label for="selector" title="Selector">S</label>
+      </div>
+    </nav>
+    <nav id="quickies">
+      <a href="">RESET</a>
+    </nav>
+  </header>
+  <main style="cursor: url('design/cursors/darkGray Normal.cur'), auto;">
+    <div id="grid_wrapper">
+      <div id="grid">
+
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'KarmaticArcade';
+  src: url('../fonts/ka1.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GhoulsAndGhosts';
+  src: url('../fonts/ghouls.ghosts.and.goblins-[fontvir.us].ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PixelSplitter';
+  src: url('../fonts/PixelSplitter-Bold.ttf') format('truetype');
+}
+
+/*CSS PRESET*/
+*
+{
+  margin:0;
+  padding:0;
+
+  font-family: sans-serif;
+
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+/*min page size 100% x 100% window size*/
+html { width: 100vw; max-width: 100%; }
+body { width: 100%; height: 100vh; }
+header
+{
+  width: 100%;
+  height: 50px;
+  padding: 0 25px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+
+  /*overflow: hidden;*/
+}
+
+main
+{
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+/*boxes to block*/
+div, section, aside, button, i { display:block; }
+
+/*text boxes to inline-block*/
+span, em, article, b, strong, p, a { display:inline-block; }
+
+/*button style reset*/
+button { border:none; background:none; color:black; }
+
+/*links style*/
+a
+{
+    color: black;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+a:link { color: inherit;; }
+a:visited { color: inherit; }
+a:hover { color: inherit; }
+
+/*forms style*/
+input, select
+{
+  height: 32px;
+
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+input[type="text"]
+{
+  border-bottom: 1px solid #999;
+}
+input[type="radio"] { cursor: pointer; }
+input[type="submit"] { cursor:pointer; }
+
+textarea { padding: 5px; }
+
+
+/*lists*/
+ul { list-style-type: none; }

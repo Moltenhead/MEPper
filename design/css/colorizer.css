@@ -1,0 +1,106 @@
+header { box-shadow: -17px 4px 0 #666; }
+
+header, #toolbox::before { background-color: #ffff99; }
+header a:hover { color: #cc3300; }
+
+#toolbox { background-color: inherit; }
+
+/*#toolbox > div > label
+{
+  text-shadow:
+    0 -3px 0 #666633,
+    2px -2px 0 #666633,
+    3px 0 0 #666633,
+    2px 2px 0 #666633,
+    0 3px 0 #666633,
+    -2px 2px 0 #666633,
+    -3px 0 0 #666633,
+    -2px -2px 0 #666633;
+}*/
+
+#toolbox >div > input[type="radio"]:checked + label,
+#toolbox > div > label:hover
+{
+  color: #cc3300;
+  text-shadow:
+    0 -3px 0 #000,
+    2px -2px 0 #000,
+    3px 0 0 #000,
+    2px 2px 0 #000,
+    0 3px 0 #000,
+    -2px 2px 0 #000,
+    -3px 0 0 #000,
+    -2px -2px 0 #000;
+}
+
+#toolbox > div > nav > div > label { color: #999; }
+#toolbox > div > nav > div > input[type="radio"]:checked + label,
+#toolbox > div > nav > div > label:hover
+{
+  color: #ff9933;
+  text-shadow:
+    0 -2px 0 #000,
+    1px -1px 0 #000,
+    2px 0 0 #000,
+    1px 1px 0 #000,
+    0 2px 0 #000,
+    -1px 1px 0 #000,
+    -2px 0 0 #000,
+    -1px -1px 0 #000;
+}
+
+#toolbox > div > nav { background-color: #ffffcc; border-color: #000; }
+#toolbox > div > nav::before { border-top-color: #000; border-right-color: transparent; }
+#toolbox > div > nav::after { border-top-color: #ffffcc; border-right-color: transparent; }
+
+#grid { background-color: #666633; }
+
+.cell { background-color: transparent; }
+.cell::before { background-color: #333300; }
+
+.cell.room { background-color: #000; border-color: #000;}
+.cell:not(.room):hover::before,
+.cell.room::before
+{ background-color: #cccc66; }
+
+.cell.room .border:hover { background-color: rgba(0,0,0,.2); }
+
+.cell.room.special.star::after
+{
+  color: #000;
+  text-shadow:
+    0 -3px 0 #fff,
+    2px -2px 0 #fff,
+    3px 0 0 #fff,
+    2px 2px 0 #fff,
+    0 3px 0 #fff,
+    -2px 2px 0 #fff,
+    -3px 0 0 #fff,
+    -2px -2px 0 #fff;
+}
+.cell.room.special.int::after
+{
+  color: #cc3300;
+  text-shadow:
+    0 -3px 0 #000,
+    2px -2px 0 #000,
+    3px 0 0 #000,
+    2px 2px 0 #000,
+    0 3px 0 #000,
+    -2px 2px 0 #000,
+    -3px 0 0 #000,
+    -2px -2px 0 #000;
+}
+.cell.room.special.exp::after
+{
+  color: #fff;
+  text-shadow:
+    0 -3px 0 #000,
+    2px -2px 0 #000,
+    3px 0 0 #000,
+    2px 2px 0 #000,
+    0 3px 0 #000,
+    -2px 2px 0 #000,
+    -3px 0 0 #000,
+    -2px -2px 0 #000;
+}
