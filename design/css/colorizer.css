@@ -58,14 +58,34 @@ header a:hover { color: #cc3300; }
 .cell { background-color: transparent; }
 .cell::before { background-color: #333300; }
 
-.cell.room { background-color: #000; border-color: #000;}
+.cell.room { background-color: #000; }
+.cell.room.up_wall::before,
+.cell.room.right_wall::before,
+.cell.room.bottom_wall::before,
+.cell.room.left_wall::before
+{ border-color: #000;}
 .cell:not(.room):hover::before,
 .cell.room::before
 { background-color: #cccc66; }
 
 .cell.room .border:hover { background-color: rgba(0,0,0,.2); }
 
-.cell.room.special.star::after
+.cell.room.structure.square_pillar::after,
+.cell.room.structure.round_pillar::after
+{
+  background-color: #333300;
+  -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,1);
+  box-shadow: 0 0 0 2px rgba(0,0,0,1);
+}
+.cell.room.furniture.square_table::after,
+.cell.room.furniture.round_table::after
+{
+  background-color: #663300;
+  -webkit-box-shadow: 2px 1px 0 rgba(0,0,0,1);
+  box-shadow: 2px 1px 0 rgba(0,0,0,1);
+}
+
+.cell.room.marker.sta::after
 {
   color: #000;
   text-shadow:
@@ -78,7 +98,7 @@ header a:hover { color: #cc3300; }
     -3px 0 0 #fff,
     -2px -2px 0 #fff;
 }
-.cell.room.special.int::after
+.cell.room.marker.int::after
 {
   color: #cc3300;
   text-shadow:
@@ -91,7 +111,7 @@ header a:hover { color: #cc3300; }
     -3px 0 0 #000,
     -2px -2px 0 #000;
 }
-.cell.room.special.exp::after
+.cell.room.marker.exp::after
 {
   color: #fff;
   text-shadow:
