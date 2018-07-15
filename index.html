@@ -20,33 +20,45 @@
   <header>
     <nav id="toolbox">
       <div class="active">
-        <input id="magic_wand" type="radio" name="toolbox" value="1" checked="true">
+        <input id="magic_wand" type="radio" name="toolbox" value="0" checked="true">
         <label for="magic_wand" title="Magic Wand">M</label>
         <nav class="subnav">
           <div>
-            <input id="base" type="radio" name="magic_wand" value="1" checked="true">
+            <input id="base" type="radio" name="magic_wand" value="0" checked="true">
             <label for="base" title="Base">B</label>
           </div>
           <div>
-            <input id="structure" type="radio" name="magic_wand" value="2">
+            <input id="structure" type="radio" name="magic_wand" value="1">
             <label for="structure" title="Structure">S</label>
           </div>
+        </nav>
+      </div>
+      <div>
+        <input id="eraser" type="radio" name="toolbox" value="1">
+        <label for="eraser" title="Eraser">E</label>
+        <nav class="subnav">
           <div>
-            <input id="furniture" type="radio" name="magic_wand" value="3">
+            <input id="remover" type="radio" name="eraser" value="0" checked="true">
+            <label for="remover" title="Remover">R</label>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <input id="pen" type="radio" name="toolbox" value="2">
+        <label for="pen" title="Pen">P</label>
+        <nav class="subnav">
+          <div>
+            <input id="marker" type="radio" name="pen" value="0" checked="true">
+            <label for="marker" title="Marker">M</label>
+          </div>
+          <div>
+            <input id="furniture" type="radio" name="pen" value="0" >
             <label for="furniture" title="Furniture">F</label>
           </div>
         </nav>
       </div>
       <div>
-        <input id="eraser" type="radio" name="toolbox" value="2">
-        <label for="eraser" title="Eraser">E</label>
-      </div>
-      <div>
-        <input id="pen" type="radio" name="toolbox" value="3">
-        <label for="pen" title="Pen">P</label>
-      </div>
-      <div>
-        <input id="selector" type="radio" name="toolbox" value="4">
+        <input id="selector" type="radio" name="toolbox" value="3">
         <label for="selector" title="Selector">S</label>
       </div>
     </nav>
