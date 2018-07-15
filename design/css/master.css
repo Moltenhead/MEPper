@@ -178,12 +178,33 @@ header a
   width: 100%;
   height: 100%;
 }
-.cell.room { padding: 0; border-style: solid; border-width: 0; }
+.cell.room { padding: 0;  border-width: 0; }
 
-.cell.room.up_wall { border-top-width: 4px; }
-.cell.room.right_wall { border-right-width: 4px; }
-.cell.room.bottom_wall { border-bottom-width: 4px; }
-.cell.room.left_wall { border-left-width: 4px; }
+.cell.room.up_wall::before,
+.cell.room.right_wall::before,
+.cell.room.bottom_wall::before,
+.cell.room.left_wall::before
+{
+  border-style: solid;
+  border-width: 0;
+}
+.cell.room.up_wall::before,
+.cell.room.bottom_wall::before
+{
+  height: 28px;
+}
+.cell.room.up_wall.bottom_wall::before { height: 24px; }
+.cell.room.right_wall::before,
+.cell.room.left_wall::before
+{
+  width: 28px;
+}
+.cell.room.right_wall.left_wall::before { width: 24px; }
+
+.cell.room.up_wall::before { border-top-width: 4px; }
+.cell.room.right_wall::before { border-right-width: 4px; }
+.cell.room.bottom_wall::before { border-bottom-width: 4px; }
+.cell.room.left_wall::before { border-left-width: 4px; }
 
 .cell > .border
 {
@@ -199,23 +220,35 @@ header a
 .cell > .border.right { right: 0; }
 .cell > .border.left { left: 0; }
 
-.cell.room.special::after
+.cell.room.structure::after,
+.cell.room.marker::after,
+.cell.room.furniture::after
 {
   content: '';
-  width: 100%;
-  height: 100%;
-  font-family: 'PixelSplitter';
-  font-size: 22px;
 
   position: absolute;
-  top:0;
-  left:0;
+  top:50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   display:flex;
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
 }
-.cell.room.special.star::after { content: '*'; }
-.cell.room.special.int::after { content: '?'; }
-.cell.room.special.exp::after { content: '!'; }
+.cell.room.structure::after { width: 12px; height: 12px; }
+.cell.room.structure.round_pillar::after,
+.cell.room.furniture.round_table::after
+{ border-radius: 50%; }
+.cell.room.furniture::after { width: 18px; height: 12px; }
+
+.cell.room.marker::after
+{
+  font-family: 'PixelSplitter';
+  font-size: 22px;
+}
+.cell.room.marker.sta::after { content: '*'; }
+.cell.room.marker.int::after { content: '?'; }
+.cell.room.marker.exp::after { content: '!'; }
