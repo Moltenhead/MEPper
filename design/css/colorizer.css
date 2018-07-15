@@ -67,6 +67,7 @@ header a:hover { color: #cc3300; }
 .cell:not(.room):hover::before,
 .cell.room::before
 { background-color: #cccc66; }
+.cell.room:hover::before { background-color: #999900; }
 
 .cell.room .border:hover { background-color: rgba(0,0,0,.2); }
 
@@ -123,4 +124,10 @@ header a:hover { color: #cc3300; }
     -2px 2px 0 #000,
     -3px 0 0 #000,
     -2px -2px 0 #000;
+}
+
+#selector
+{
+  background-color: rgba(0,0,0,.2);
+  border: #000,
 }
