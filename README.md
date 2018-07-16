@@ -21,7 +21,7 @@ State | Features
 :white_check_mark:| Add structures, markers and furnitures on click
 :coffee:<br/><br/>| Switch to next structure, marker or furniture on click<br/>*- needs debuging*
 :white_check_mark:| Basic toolbar
-:coffee:<br/><br/>| Multiple cell execution<br/>*- wrong behaviors on room borders click*
+:coffee:<br/><br/>| Multiple cell execution<br/>*- wrong behaviours on room borders click*
 :construction:| Add/remove flags
 :x:| Center view on flags
 :x:| Add/remove doors and windows on click
