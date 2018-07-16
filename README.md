@@ -1,5 +1,5 @@
 # MEPper
-*Map scribbing for old school games*
+*Map scriber for old school games*
 <br/><br/>
 
 ## Hosted App
