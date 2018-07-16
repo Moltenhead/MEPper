@@ -26,6 +26,7 @@ State | Features
 :x:| Center view on flags
 :x:| Add/remove doors and windows on click
 :x:| Add/remove floors, ceil and stairs on click
+:x:| Add/remove walls in lines on click & drag
 :x:| Saving map as JSon
 :x:| Improved toolbar and tools
 :x:| Browsers friendly
