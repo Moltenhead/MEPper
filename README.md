@@ -1,4 +1,5 @@
 # MEPper
 Map scribbing for old school games
 
-You can access the hosted app [here](https://moltenhead.github.io/MEPper/).
+## Hosted App
+You can access the github hosted app [here](https://moltenhead.github.io/MEPper/).
