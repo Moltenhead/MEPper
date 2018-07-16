@@ -19,8 +19,7 @@ State | Features
 :white_check_mark:| Add/remove room space on click
 :white_check_mark:| Add walls cliking room borders
 :white_check_mark:| Add structures, markers and furnitures on click
-:construction:| Switch to next structure, marker or furniture on click
-:coffee:|  *- needs debuging*
+:coffee:| Switch to next structure, marker or furniture on click<br/>*- needs debuging*
 :white_check_mark:| Basic toolbar
 :white_check_mark:| Multiple cell execution
 :construction:| Add/remove flags
