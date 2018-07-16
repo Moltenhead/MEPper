@@ -13,7 +13,7 @@ This little app is aiming to become a **tool for old-school games players**; tho
 There is still alot to add and make, but here it is for those who'd like to use it anyway.
 <br/><br/>
 
-### Features:
+### How it is going
 State | Features
 ------|---------
 :white_check_mark:| Add/remove room space on click
