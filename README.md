@@ -19,6 +19,9 @@ There is still alot to add and make, but here it is for those who'd like to use 
 - [x] Switch to next marker / furniture on click
 - [x] Multiple cell execution
 
+- [ ] Add / remove flags
+- [ ] Center view on flags
+- [ ] Browsers friendly
 - [ ] Optimized
 <br/><br/><br/><br/>
 <hr/>
