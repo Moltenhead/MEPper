@@ -14,14 +14,18 @@ There is still alot to add and make, but here it is for those who'd like to use 
 <br/><br/>
 
 ### Features:
-- [x] Add / remove room space on click
+- [x] Add/remove room space on click
 - [x] Add walls cliking room borders
-- [x] Add markers and furniture
-- [x] Switch to next marker / furniture on click
+- [x] Add markers and furniture on click
+- [x] Switch to next marker or furniture on click
+- [x] Basic toolbar
 - [x] Multiple cell execution
 
-- [ ] Add / remove flags
+- [ ] Add/remove flags
 - [ ] Center view on flags
+- [ ] Add/remove doors and windows on click
+- [ ] Add/remove floors, ceil and stairs on click
+- [ ] Improved toolbar and tools
 - [ ] Browsers friendly
 - [ ] Optimized
 <br/><br/><br/><br/>
