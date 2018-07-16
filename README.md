@@ -26,11 +26,11 @@ State | Features
 :x:| Center view on flags
 :x:| Add/remove doors and windows on click
 :x:| Add/remove floors, ceil and stairs on click
-:x:| Saving as JSon
+:x:| Saving map as JSon
 :x:| Improved toolbar and tools
 :x:| Browsers friendly
 :x:| Optimized
-:x:| Saving as link
+:x:| Saving map as link
 
 <br/><br/>
 <hr/>
