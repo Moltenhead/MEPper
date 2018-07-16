@@ -14,21 +14,23 @@ There is still alot to add and make, but here it is for those who'd like to use 
 <br/><br/>
 
 ### Features:
-- [x] Add/remove room space on click
-- [x] Add walls cliking room borders
-- [x] Add markers and furniture on click
-- [x] Switch to next marker or furniture on click
-- [x] Basic toolbar
-- [x] Multiple cell execution
+State | Features
+------|---------
+:white_check_mark:| Add/remove room space on click
+:white_check_mark:| Add walls cliking room borders
+:white_check_mark:| Add markers and furniture on click
+:white_check_mark:| Switch to next marker or furniture on click
+:white_check_mark:| Basic toolbar
+:white_check_mark:| Multiple cell execution
+:construction:| Add/remove flags
+:x:| Center view on flags
+:x:| Add/remove doors and windows on click
+:x:| Add/remove floors, ceil and stairs on click
+:x:| Improved toolbar and tools
+:x:| Browsers friendly
+:x:| Optimized
 
-- [ ] Add/remove flags
-- [ ] Center view on flags
-- [ ] Add/remove doors and windows on click
-- [ ] Add/remove floors, ceil and stairs on click
-- [ ] Improved toolbar and tools
-- [ ] Browsers friendly
-- [ ] Optimized
-<br/><br/><br/><br/>
+<br/><br/>
 <hr/>
 
 *Feedbacks are welcome @Moltenhead.*
