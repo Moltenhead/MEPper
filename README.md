@@ -31,7 +31,7 @@ State | Features
 :x:| Improved toolbar and tools
 :x:| Browsers friendly
 :x:| Optimized
-:x:| Saving map as link
+:x:| Saving map as url
 
 <br/><br/>
 <hr/>
